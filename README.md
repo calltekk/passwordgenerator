@@ -1,79 +1,25 @@
-# Module 5 Challenge: Password Generator
-
+# Password Generator
 ## Overview
+This is a basic password generator tool to generate strong passwords between 8 and 128 characters long. The generator allows users to choose the length of said password and the types of characters they're wanting to use.
+## Features
+1. User-friendly interface.
+2. Customizable password length (between 8 and 128 characters).
+3. Option to include special characters, numbers, lowercase letters, and uppercase letters.
 
-This week’s challenge requires you to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
+## Getting Started
+1. Open the index.html file in your web browser.
+2. Enter the desired password length.
+3. Confirm or deny inclusion of special characters, numbers, lowercase letters, and uppercase letters.
+4. Click the "Generate Password" button to create your customized password.
+5. Copy the generated password to use in your applications or accounts.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of Password Special Characters from the OWASP Foundation](https://www.owasp.org/index.php/Password_special_characters).
+## Screenshot
+![Screenshot 2024-01-09 at 19 33 24](https://github.com/calltekk/passwordgenerator/assets/112567796/f1825cea-6f4f-4103-837d-8b402f73c0b5)
+![Screenshot 2024-01-09 at 19 33 40](https://github.com/calltekk/passwordgenerator/assets/112567796/93285db7-579a-4f16-b93c-d87c6370e14d)
 
-## Instructions
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-The following image shows the web application's appearance and functionality:
-
-![password generator demo](./assets/05-javascript-challenge-demo.png)
-
-
-* Generate a password when the button is clicked
-  * Present a series of prompts for password criteria
-    * Length of password
-      * At least 8 characters but no more than 128.
-    * Character types
-      * Lowercase
-      * Uppercase
-      * Numeric
-      * Special characters ($@%&*, etc)
-  * Code should validate for each input and at least one character type should be selected
-  * Once prompts are answered then the password should be generated and displayed in an alert or written to the page
-
-## Grading Requirements
-
-This challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * The challenge should not produce any errors in the console when you inspect it using Chrome DevTools.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## Acknowledgments
+1. EDX Bootcamps
+2. Justin Moore (Instructor)

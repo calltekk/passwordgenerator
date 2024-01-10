@@ -1,6 +1,10 @@
 # Password Generator
 ## Overview
 This is a basic password generator tool to generate strong passwords between 8 and 128 characters long. The generator allows users to choose the length of said password and the types of characters they're wanting to use.
+
+## Deployed Site
+https://calltekk.github.io/passwordgenerator/
+
 ## Features
 1. User-friendly interface.
 2. Customizable password length (between 8 and 128 characters).
